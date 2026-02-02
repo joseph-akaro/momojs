@@ -13,7 +13,7 @@ A modern, zero-dependency, fully-typed NodeJS SDK for the MTN Mobile Money (MoMo
 
 ## ✨ Features
 
-  * **TypeScript First**: Written in TypeScript with auto-generated type definitions for superior autocompletion and type safety.
+  * **TypeScript First**: Written in TypeScript with auto-generated type definitions for superior autocompletion and type safety (on Development).
   * **Promise-based API**: Uses modern `async/await` syntax for clean, readable, and non-blocking code.
   * **Complete API Coverage**: Supports all major products: Collections, Disbursements, and Remittances.
   * **Automated Authentication**: Handles the OAuth 2.0 token generation and refresh lifecycle for you automatically.
@@ -34,7 +34,7 @@ You will need the following credentials from your developer portal dashboard:
 ## 🚀 Installation
 
 ```bash
-npm install momo-nodejs-sdk
+npm install momopay
 ```
 
 ## Quick Start: Receiving a Payment (Collections)
