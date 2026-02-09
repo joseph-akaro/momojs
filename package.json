@@ -4,8 +4,8 @@
   "description": "A modern, zero-dependency, fully-typed NodeJS SDK for the MTN Mobile Money (MoMo) API. This package simplifies all interactions with the MoMo API, including Collections, Disbursements, and Remittances, with a focus on great developer experience and robust error handling.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "test": "jest"
+    "dev": "nodemon dist/index.js",
+    "test": "jest dist/test_index.js"
   },
   "repository": {
     "type": "git",
@@ -25,8 +25,12 @@
   },
   "homepage": "https://momopay.josephakaro.com",
   "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.2.2",
     "dotenv": "^17.2.3",
-    "nodemon": "^3.1.11"
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "axios": "^1.13.4",
